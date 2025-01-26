@@ -1,0 +1,759 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #14171F;
+    width: 296px;
+    padding: 24px;
+}
+
+.userAndArrowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.onlyUserDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.userNameDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoStyles {
+    width: 216px;
+}
+
+.userFirstSpan {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.userStudent {
+    color: #929699;
+    font-size: 14px;
+}
+
+.listItmsDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.listSpan {
+    color: #929699;
+    font-size: 16px;
+}
+
+.setingAndAnaliticDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px 0 32px 0;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+}
+
+.headerAndmainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 105px;
+}
+
+.navAndButtonDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuIcon {
+    display: none;
+}
+
+.navADiv {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.navA {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-size: 16px;
+}
+
+.navButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navBuutton {
+    color: #2F2F2F;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background-color: #F7F7F7;
+}
+
+header {
+    max-width: 100%;
+    width: 100%;
+}
+
+.headerAndMainsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    max-width: 1800px;
+    width: 100%;
+}
+
+.theMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.divWithBackgroundImg {
+    background-image: url("../images/background.svg");
+    background-repeat: no-repeat;
+    height: 228px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.backgroundsP {
+    width: 416px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #2F2F2F;
+    padding-left: 40px;
+}
+
+.mainButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.mainButtons button {
+    color: #2F2F2F;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.mainButtons button:focus {
+    background-color: #14171F;
+    color: #fff;
+}
+
+.formAndInformaitionBigDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.onlybigForm {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.formFirstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 16px;
+}
+
+.personalSpan {
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.aploadPersonalSpan {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.personalSpanDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailAndName {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.onlyName {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.fullNameLabel {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nameInput {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+    padding: 12px 16px;
+}
+
+.nameInput::placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+.onlyEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.emailInput {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+
+.emailInput ::placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+.formFirstPart input:focus {
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+
+.numberAndDate {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.numberInput {
+    padding: 12px 16px;
+    background-color: #F9FBFC;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+}
+
+.numberInput::placeholder {
+    color: #666;
+    font-size: 14px;
+}
+
+.plus920 {
+    background-color: #14171F;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.onlyNumber {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.numberLabel {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.onlyBirthday {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.birthdayLabel {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.birthdayInput {
+    padding: 12px 16px;
+    background-color: #F9FBFC;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+}
+
+.formSecondPart {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.personalInformationDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    padding: 24px 16px;
+}
+
+.personalInformation {
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.teamAndDepartment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.onlyDepartment {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.developmentDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.department {
+    color: #666;    
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.development {
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pancilAndSpans {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #F9FBFC;
+}
+
+.AdditionalInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    padding: 14px 16px;
+}
+
+.resumeAndInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.resumeInput {
+    color: #666;
+    font-size: 14px;
+    background-color: #F9FBFC;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.pancilAndInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksAndMenuDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.linkAndDropdown {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.dropDown {
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background-color: #F9FBFC;
+}
+
+option {
+    padding: 10px 16px;
+}
+
+option:hover {
+    border-radius: 8px;
+    background: #D2F0FF;
+    color: #666;
+}
+
+.link {
+    color: #666;
+    font-size: 14px;
+    max-width: 50px;
+    width: 100%;
+    background-color: #F9FBFC;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.userInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #14171F;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.userInfoFirst {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 16px;
+}
+
+.userPhotoAndIconDiv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.just {
+    background-image: url("../images/userInfo.svg") ;
+}
+
+.somethingImg {
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+.andrioAndButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.andrioButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.andrioButton {
+    color: #2F2F2F;
+    font-size: 14px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 8px 12px;
+}
+
+.andrio {
+    color: #2F2F2F;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.whiteDiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 16px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.userDiv {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.white {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    flex-grow: 1;
+}
+
+.locationAndPlus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select {
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.select option:hover {
+    background-color: #D2F0FF;
+}
+
+.aboutAndWords {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+}
+
+.iconSizes {
+    width: 32px;
+    height: 32px;
+}
+
+.saveButton {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    align-self: flex-end;
+}
+
+.settingButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7B62FF;
+    font-size: 16px;
+    background-color: #14171F;
+    border: 1px solid #7B62FF;;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+.purpleBorderButtonDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    aside {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .navADiv {
+        align-items: center;
+    }
+
+    background-image {
+        width: 100vw;
+    }
+
+    .formAndInformaitionBigDiv {
+        flex-direction: column;
+    }
+
+    .userInfoDiv {
+        order: -1;
+    }
+
+    .numberInput {
+        width: 70%;
+    }
+
+    .onlyBirthday {
+        flex-grow: 1.5;
+    }
+
+    .personalInformationDiv {
+        flex-grow: 1;
+    }
+
+    .additionalInfoDiv {
+        flex-grow: 1;
+    }
+
+    .andrioButtons {
+        width: 100%;
+    }
+
+    .andrioButtons button {
+        flex-grow: 1;
+    }
+
+    .andrioAndButtons {
+        width: 100%;
+    }
+
+    .userInfoFirst {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navAndButtonDiv {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .navADiv {
+        align-items: center;
+    }
+
+    .formAndInformaitionBigDiv {
+        flex-direction: column;
+    }
+
+    .userInfoDiv {
+        order: -1;
+    }
+
+    .userInfoFirst {
+        width: 100%;
+    }
+
+    .something {
+        flex-grow: 1;
+
+    }
+
+    .andrioButtons {
+        width: 100%;
+    }
+
+    .andrioButtons button {
+        flex-grow: 1;
+    }
+
+    .andrioAndButtons {
+        width: 100%;
+    }
+
+    .emailAndName {
+        flex-direction: column;
+    }
+
+    .numberAndDate {
+        flex-direction: column;
+    }
+
+    .blackButtonAndNumber {
+        display: flex;
+        gap: 8px;
+    }
+
+    .plus920 {
+        flex-grow: -0.5;
+    }
+
+    .numberInput {
+        flex-grow: 2;
+    }
+
+    .formSecondPart {
+        flex-direction: column;
+    }
+
+    .teamAndDepartment {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .pancilAndSpans {
+        gap: 20px;
+    }
+}
